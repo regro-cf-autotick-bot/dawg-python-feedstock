@@ -17,9 +17,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -35,6 +35,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - mxr-conda
     - mwilson8
     - benhuff
     - oblute
